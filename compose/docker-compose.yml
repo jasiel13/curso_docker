@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     image: "miwildfly:7"
-    container-name: "miwildflycompose"
+    container_name: miwildflycompose
     ports:
      - "8080:8080"
      - "9990:9990"
@@ -10,6 +10,6 @@ services:
      - basedatos:mimariadb
   basedatos:
     image: "mibasedatos:latest"
-    container-name: "mibasedatoscompose"
+    container_name: mibasedatoscompose
     ports:
      - "3306:3306"
