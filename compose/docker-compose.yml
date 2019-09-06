@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: "miwildfly:exponercarpetas:10.1.0.Final"
+    image: "miwildfly:10.1.0.Final"
     ports:
      - "8080:8080"
      - "9990:9990"
